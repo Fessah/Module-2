@@ -41,7 +41,25 @@ p{
    padding: 25px;
    border: 3px solid black;
 }
-
+   
+.item-name{
+   position: absolute;
+   top: 0;
+   right: 0;
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+   padding: 6px 90px;
+}
+  
+#n-Chicken{
+  background-color:#50edff;
+} 
+ #n-Beef{
+  background-color:#ebdf4b;
+ } 
+ #n-Sushi{
+ 	background-color:#904beb;
+ }
 
 /******* Desktop (Large Device) only *******/
 @media (min-width: 992px){
@@ -97,24 +115,4 @@ p{
      width: 100%;
      float: left;
    }
-}
-
-
-#n-Chicken{
-  background-color:#50edff;
-} 
- #n-Beef{
-  background-color:#ebdf4b;
- } 
- #n-Sushi{
- 	background-color:#904beb;
- }
-
- .item-name{
-   position: absolute;
-   top: 0;
-   right: 0;
-   border-left: 2px solid black;
-   border-bottom: 2px solid black;
-   padding: 6px 90px;
 }
